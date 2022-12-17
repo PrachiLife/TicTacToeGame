@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*
+{
+	margin:0px;
+	padding:0px;
+	font-family: 'Baloo Bhai 2', cursive;
+}
+.navigation
+{
+	color:white;
+	background-color: #620437;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	font-size: 2em;
+	padding-left:12px;
+}
+.navigation ul
+{
+	list-style-type: none;
+}
+.game-container
+{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top:50px;
+}
+.first-container
+{
+	/*background-color: green;*/
+	/*position:relative;*/
+}
+#line
+{
+	/*position:absolute;*/
+	height:3px;
+	width:375px;
+}
+.div-s-1
+{
+	font-size:50px;
+}
+.info
+{
+	font-size:18px;
+}
+#reset
+{
+	margin-left: 40px;
+	border-radius: 8px;
+	font-size: 18px;
+	padding:0px 18px;
+	background-color: #ecb0bb;
+	cursor: pointer;
+}
+.container1,.container2,.container3
+{
+	display: flex;
+}
+.box{
+	width:135px;
+	height:135px;
+	border:2px solid black;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size:12vw;
+	/*font-weight: 100;*/
+}
+.box:hover
+{
+	cursor: pointer;
+	background-color: #efa1ae80;
+}
+.box1
+{
+	border-top:0px;
+	border-left:0px;
+}
+.box2
+{
+	border-top:0px;
+}
+.box3
+{
+	border-top: 0px;
+	border-right:0px;
+}
+.box4
+{
+	border-left:0px;
+}
+.box6
+{
+	border-right:0px;
+}
+.box7
+{
+	border-bottom:0px;
+	border-left:0px;
+}
+.box8
+{
+	border-bottom:0px;
+}
+.box9
+{
+	border-bottom: 0px;
+	border-right:0px;
+}
+

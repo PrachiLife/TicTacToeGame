@@ -1,0 +1,12 @@
+.game-container
+{
+	flex-wrap:wrap;
+}
+.second-container
+{
+	margin: 100px;
+}
+.info,#reset
+{
+	font-size:30px;
+}
